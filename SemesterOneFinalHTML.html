@@ -7,14 +7,10 @@
 	</head>
 
 	<body>
-		<h1><center>Northwest Childrens Outreach<center></h1>
+		<div class="container"><div class= "boxed"><h1><center>Northwest Childrens Outreach<center></h1></div></div>
 		<div class= "boxed"></div>
     
-    <div class="container">
-      <div class="box">
-      Northwest Childrens Outreach
-      </div>
-    </div>
+    
 
      <form> 
         <fieldset> 
@@ -47,33 +43,77 @@
         </fieldset> 
      </form> 
 
-     <center><h2>Mission Statement</h2></center>
-    <center><h3>We stand in the gap between poverty and caring agencies with resources to help children.</h3></center>
+     <h2>Mission Statement</h2>
+     <h3>We stand in the gap between poverty and caring agencies with resources to help children.</h3>
 
-     <img src="http://northwestchildrensoutreach.org/img/ncochildtote.jpg">
-    </img> 
+<!--I am getting rid of the pop-up photos
+     <div class="photos"> 
+        <img src="http://northwestchildrensoutreach.org/img/ncochildtote.jpg" />
+        <img src="http://northwestchildrensoutreach.org/img/groupwarehouse.jpg" />
+        <img src="http://northwestchildrensoutreach.org/img/ncoboyspack.jpg" />
+        <img src="http://northwestchildrensoutreach.org/img/ncowagon.jpg" />
+        <img src="http://northwestchildrensoutreach.org/img/baby-front.jpg" />
+       
+     </div>
+     -->
+<p>
+<p>
+<p>
+<p>  
+<p>
+<p>
+<!--I think this should make a slideshow with my pictures-->
+<script type="text/javascript">
 
-    <div id="container">
-        <header>
-          <h4>Animated Photo Banner</h4>
-          <p>Lorem ipsum color...</p>
-        </header>
-        
-        <div class="photobanner"> 
-        <img class="first" src="http://northwestchildrensoutreach.org/img/ncochildtote.jpg" alt="" />
-        <img src="http://northwestchildrensoutreach.org/img/groupwarehouse.jpg" alt="" />
-        <img src="http://northwestchildrensoutreach.org/img/ncoboyspack.jpg" alt="" />
-        <img src="http://northwestchildrensoutreach.org/img/ncowagon.jpg" alt="" />
-        <img src="http://northwestchildrensoutreach.org/img/baby-front.jpg" alt="" />
-        <img src="http://northwestchildrensoutreach.org/img/ncochildtote.jpg" alt="" />
-        <img src="http://northwestchildrensoutreach.org/img/groupwarehouse.jpg" alt="" />
-        <img src="http://northwestchildrensoutreach.org/img/ncoboyspack.jpg" alt="" />
-        <img src="http://northwestchildrensoutreach.org/img/ncowagon.jpg" alt="" />
-      </div>
-   </div>   
+var slideimages = new Array() // create new array to preload images
+slideimages[0] = new Image() // create new instance of image object
+slideimages[0].src = "http://northwestchildrensoutreach.org/img/ncochildtote.jpg" // set image src property to image path, preloading image in the process
+slideimages[1] = new Image()
+slideimages[1].src = "http://northwestchildrensoutreach.org/img/groupwarehouse.jpg"
+slideimages[2] = new Image()
+slideimages[2].src = "http://northwestchildrensoutreach.org/img/ncoboyspack.jpg"
+slideimages[2] = new Image()
+slideimages[2].src = "http://northwestchildrensoutreach.org/img/ncowagon.jpg"
+slideimages[2] = new Image()
+slideimages[2].src = "http://northwestchildrensoutreach.org/img/baby-front.jpg"
+
+</script>
+</head>
+<body>
+<img src="http://northwestchildrensoutreach.org/img/ncochildtote.jpg" id="slide" width="500" height="400" />
+
+<script type="text/javascript">
+
+//variable that will increment through the images
+var step=0
+
+function slideit(){
+ //if browser does not support the image object, exit.
+ if (!document.images)
+  return
+ document.getElementById('slide').src = slideimages[step].src
+ if (step<2)
+  step++
+ else
+  step=0
+ //call function "slideit()" every 2.5 seconds
+ setTimeout("slideit()",2500)
+}
+
+slideit()
+
+</script>
+
+<!--Here is the Image for the calender-->
+<h4><img src="http://eprintablecalendar.net/wp-content/uploads/Yearly-Printable-Calendar-2016-300x282.png"></img></h4>
 
 
+<!--here is the botton for the calender-->
+    <a href="https://calendar.google.com/calendar/render?tab=oc&pli=1#main_7"><br>
+    <button>Calender</button></a> 
 
+<!--Here is the hyperlink for the Calender-->
+<a href="https://calendar.google.com/calendar/render?tab=oc&pli=1#main_7">Visit our Calender</a> 
 
 	</body>
 </HTML>

@@ -1,8 +1,5 @@
 body {
-	background-color: white;
-}
-.boxed {
-	border: 1px black ;
+	background-color: 33CCFF;
 }
 
 div.box {
@@ -12,3 +9,116 @@ div.box {
 	padding: 4px;
 	margin: 4px 4px 0px 4px;
 }
+
+.photos img {
+	position:absolute;
+}
+/*I am adding a slideshow and taking away the hovering images*/
+/*this is to position the images
+.photos img:nth-of-type(1) {
+left: 50px;
+top: 50px;
+}
+
+.photos img:nth-of-type(2) {
+left: 150px;
+top: 100px;
+}
+
+.photos img:nth-of-type(3) {
+left: 250px;
+top: 50px;
+}
+
+.photos img:nth-of-type(4) {
+left: 350px;
+top: 150px;
+}
+
+.photos img:nth-of-type(5) {
+left: 450px;
+top: 50px;
+}*/
+
+
+/*This is to make the images rotate or overlap
+.photos img:nth-of-type(1) {
+left: 50px;
+top: 50px;
+-webkit-transform: rotate(5deg);
+-moz-transform: rotate(5deg);
+-o-transform: rotate(5deg);
+transform: rotate(5deg);
+}
+
+.photos img:nth-of-type(2) {
+left: 150px;
+top: 100px;
+-webkit-transform: rotate(-10deg);
+-moz-transform: rotate(-10deg);
+-o-transform: rotate(-10deg);
+transform: rotate(-10deg);
+}
+
+.photos img:nth-of-type(3) {
+left: 250px;
+top: 50px;
+-webkit-transform: rotate(7deg);
+-moz-transform: rotate(7deg);
+-o-transform: rotate(7deg);
+transform: rotate(7deg);
+}
+
+.photos img:nth-of-type(4) {
+left: 350px;
+top: 150px;
+-webkit-transform: rotate(-3deg);
+-moz-transform: rotate(-3deg);
+-o-transform: rotate(-3deg);
+transform: rotate(-3deg);
+}
+
+.photos img:nth-of-type(5) {
+left: 450px;
+top: 50px;
+-webkit-transform: rotate(2deg);
+-moz-transform: rotate(2deg);
+-o-transform: rotate(2deg);
+transform: rotate(2deg);
+}*/
+
+
+/*this is to make the images pop out
+.photos img:hover {
+-webkit-transform: scale(1.5);
+-moz-transform: scale(1.5);
+-o-transform: scale(1.5);
+transform: scale(1.5);
+z-index: 10;
+}*/
+
+/*this is to make transitions much smoother
+.photos img {
+-webkit-transition: all 0.5s ease-out;
+-moz-transition: all 0.5s ease-out;
+-o-transition: all 0.5s ease-out;
+transition: all 0.5s ease-out;
+}*/
+
+/*tried to move calender picture over to the right - did not work*/
+h4 {
+	margin-left: 800px;
+}
+
+h2 
+
+
+
+
+
+
+
+
+
+
+
