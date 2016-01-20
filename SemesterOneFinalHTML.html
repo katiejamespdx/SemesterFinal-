@@ -1,119 +1,247 @@
-<!DOCTYPE>
-<HTML>
-	<head>
-		<title>Northwest Childrens Outreach</title>
-		<link rel="stylesheet" href="SemesterOneFinalCSS.css">
-		<script src="javascriptstuff.js"></script>
-	</head>
 
-	<body>
-		<div class="container"><div class= "boxed"><h1><center>Northwest Childrens Outreach<center></h1></div></div>
-		<div class= "boxed"></div>
+<!DOCTYPE>
+
+<HTML>
+
+  <head>
+
+   <title>Northwest Childrens Outreach</title>    
+
+   <link rel="stylesheet" href="SemesterOneFinalCSS.css">
+
+    <script src="javascriptstuff.js"></script>
+
+  </head>
+
+
+  <body>
+
+   <h1><center>Northwest Childrens Outreach</center></h1><
+
     
+
     
+
 
      <form> 
+
         <fieldset> 
+
            <p> 
+
               <center><label>What we do:</label> 
+
               <select id = "myList"> 
+
                 <option value = "One">Our Mission</option> 
+
                 <option value = "Two">Who We Help</option> 
+
                 <option value = "Three">Who We Are</option> 
+
               </select> 
+
            <label>Volunteer:</label> 
+
               <select id = "myList"> 
+
                 <option value = "One">Locations</option> 
+
                 <option value = "Two">Times</option> 
+
                 <option value = "Three">Restrictions</option> 
+
               </select> 
+
             <label>Donate:</label> 
+
               <select id = "myList"> 
+
                 <option value = "One">Why Donate</option> 
+
                 <option value = "Two">What to Donate</option> 
+
                 <option value = "Three">Where to drop off Donations</option> 
+
               </select> 
+
             <label>Contact us:</label> 
+
               <select id = "myList"> 
+
                 <option value = "One">Email</option> 
+
                 <option value = "Two">Call</option> 
+
                 <option value = "Three">Our Address</option> 
+
               </select></center>
+
            </p> 
+
         </fieldset> 
+
      </form> 
 
-     <h2>Mission Statement</h2>
-     <h3>We stand in the gap between poverty and caring agencies with resources to help children.</h3>
+
+     <h2><center>Mission Statement</center></h2>
+
+     <h3><center>We stand in the gap between poverty and caring agencies with resources to help children.</center></h3>
+
 
 <!--I am getting rid of the pop-up photos
+
      <div class="photos"> 
+
         <img src="http://northwestchildrensoutreach.org/img/ncochildtote.jpg" />
+
         <img src="http://northwestchildrensoutreach.org/img/groupwarehouse.jpg" />
+
         <img src="http://northwestchildrensoutreach.org/img/ncoboyspack.jpg" />
+
         <img src="http://northwestchildrensoutreach.org/img/ncowagon.jpg" />
+
         <img src="http://northwestchildrensoutreach.org/img/baby-front.jpg" />
+
        
+
      </div>
+
      -->
+
 <p>
+
 <p>
+
 <p>
+
 <p>  
+
 <p>
+
 <p>
+
+
+
+
 <!--I think this should make a slideshow with my pictures-->
-<script type="text/javascript">
+
+<center><h6><script type="text/javascript">
 
 var slideimages = new Array() // create new array to preload images
+
 slideimages[0] = new Image() // create new instance of image object
+
 slideimages[0].src = "http://northwestchildrensoutreach.org/img/ncochildtote.jpg" // set image src property to image path, preloading image in the process
+
 slideimages[1] = new Image()
+
 slideimages[1].src = "http://northwestchildrensoutreach.org/img/groupwarehouse.jpg"
+
 slideimages[2] = new Image()
+
 slideimages[2].src = "http://northwestchildrensoutreach.org/img/ncoboyspack.jpg"
+
 slideimages[2] = new Image()
+
 slideimages[2].src = "http://northwestchildrensoutreach.org/img/ncowagon.jpg"
+
 slideimages[2] = new Image()
+
 slideimages[2].src = "http://northwestchildrensoutreach.org/img/baby-front.jpg"
 
 </script>
-</head>
-<body>
+
+
+
 <img src="http://northwestchildrensoutreach.org/img/ncochildtote.jpg" id="slide" width="500" height="400" />
+
 
 <script type="text/javascript">
 
 //variable that will increment through the images
+
 var step=0
 
 function slideit(){
+
  //if browser does not support the image object, exit.
+
  if (!document.images)
+
   return
+
  document.getElementById('slide').src = slideimages[step].src
+
  if (step<2)
+
   step++
+
  else
+
   step=0
+
  //call function "slideit()" every 2.5 seconds
+
  setTimeout("slideit()",2500)
+
 }
 
 slideit()
 
-</script>
+</script><h6></center>
+
 
 <!--Here is the Image for the calender-->
-<h4><img src="http://eprintablecalendar.net/wp-content/uploads/Yearly-Printable-Calendar-2016-300x282.png"></img></h4>
+
+<center><h4><img src="http://eprintablecalendar.net/wp-content/uploads/Yearly-Printable-Calendar-2016-300x282.png"></img></h4></center>
 
 
-<!--here is the botton for the calender-->
-    <a href="https://calendar.google.com/calendar/render?tab=oc&pli=1#main_7"><br>
-    <button>Calender</button></a> 
+<div style="position:relative;left:
+
+            80px;
+
+            top:2px;
+
+            background-color:yellow;"></div>
+
+
+
+<!--here is the botton for the calender
+
+    <h5><a href="https://calendar.google.com/calendar/render?tab=oc&pli=1#main_7"><br>
+
+    <button>Calender</button></a></h5>-->
+
 
 <!--Here is the hyperlink for the Calender-->
-<a href="https://calendar.google.com/calendar/render?tab=oc&pli=1#main_7">Visit our Calender</a> 
 
-	</body>
+<center><a href="https://calendar.google.com/calendar/render?tab=oc&pli=1#main_7">Visit our Calender to sign up to volunteer!</a></center>
+
+
+
+
+<p>
+
+<p>
+
+<p>
+
+<!--here is the image for our map-->
+
+<center><h7><img src="https://www.arborday.org/programs/hazelnuts/graphics/current-production.jpg"></img></h7></center>
+
+
+<!--here is the link for our map and location-->
+
+<center><a href="https://www.google.com/maps">Click here for a map to our location!</a></center>
+
+
+
+<!--I really struggled to position the pictures somewhat next to eachother, and that took up a lot of my spare time. Also, because I was unable to download git on my personal computer, I have pushed up to github very few times.-->
+
+  </body>
+
 </HTML>
+
+
